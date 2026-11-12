@@ -1,0 +1,200 @@
+{
+  "fire_name": "Deep Creek Canyon",
+  "year": 2021,
+  "normalized_fire_id": "0109FB7F8227489F80E887DFCFC9C69D",
+  "selection_rationale": "A compact pair of retained 250 m units with different recorded outcomes, the same prediction time, clear saved timing evidence, and readable nearby geometry; model predictions were not used for example selection.",
+  "retained_fire_units": 261,
+  "retained_outcomes": {
+    "Held": 173,
+    "Burned Over": 88
+  },
+  "original_analysis_crs": "EPSG:5070",
+  "figure_crs": "EPSG:32612",
+  "geojson_crs": "EPSG:4326",
+  "saved_checked_position_coordinate_crs": "EPSG:5070",
+  "timestamp_integer_unit": "us",
+  "observation_times_utc": [
+    "2021-06-16T05:00:00+00:00",
+    "2021-06-16T23:30:00+00:00",
+    "2021-06-17T08:08:00+00:00",
+    "2021-06-18T04:32:00+00:00",
+    "2021-06-19T04:01:00+00:00",
+    "2021-06-23T03:00:00+00:00",
+    "2021-07-01T03:45:00+00:00"
+  ],
+  "time_note": "Recorded archive times approximate imagery collection times. The figure does not locate exact fire-contact times.",
+  "depicted_observation_indices": [
+    0,
+    1,
+    2
+  ],
+  "context_observation_index": 6,
+  "approach_crossing_interval_hours": 18.5,
+  "held_subsequent_observations_checked": 5,
+  "held_followup_boundary_shown_index": 2,
+  "label_provenance": "NIFC source fireline records supply labels. NIROPS supplies compatibility and timing evidence, not independent label validation.",
+  "sampling_note": "The figure uses the 11 saved checked positions on each 250 m unit, not newly generated points. Evidence used a 25 m grid. The displayed 50 m band is drawn from the vector perimeter for legibility; the saved grid distances and vector distances can differ near the threshold.",
+  "context_note": "The 1 July NIROPS extent is the last available NIROPS observation for this fire, not the NIFC final fire perimeter. Thin gray context lines are NIFC source fireline records, not necessarily whole constructed firelines.",
+  "units": {
+    "Held": {
+      "unit_uid": "L::0109FB7F8227489F80E887DFCFC9C69D_00afef075dce8aed8ba980307ef4f6a00f1e0289_c0_s0",
+      "unit_row_index": 0,
+      "source_index": 504,
+      "source_geometry_hash": "00afef075dce8aed8ba980307ef4f6a00f1e0289",
+      "recorded_type": "Completed Dozer Line",
+      "inherited_source_label_verified": true,
+      "retained_release_membership_verified": true,
+      "analysis_crs_length_m": 250.00000000010735,
+      "checked_positions": 11,
+      "supported_positions": 11,
+      "positions_supporting_first_interval": 10,
+      "prediction_anchor_idx": 0,
+      "prediction_anchor_utc": "2021-06-16T05:00:00+00:00",
+      "sample_row_indices": [
+        2479,
+        2480,
+        2481,
+        2482,
+        2483,
+        2484,
+        2485,
+        2486,
+        2487,
+        2488,
+        2489
+      ],
+      "saved_raster_signed_distance_ranges_m": [
+        [
+          125.0,
+          225.0
+        ],
+        [
+          -35.35533905029297,
+          55.90169906616211
+        ],
+        [
+          -35.35533905029297,
+          50.0
+        ],
+        [
+          -35.35533905029297,
+          50.0
+        ],
+        [
+          -35.35533905029297,
+          50.0
+        ],
+        [
+          -35.35533905029297,
+          25.0
+        ],
+        [
+          -35.35533905029297,
+          50.0
+        ]
+      ],
+      "distance_range_note": "Saved signed distances are capped at -251/+251 m; sentinel values are not exact distances."
+    },
+    "Burned Over": {
+      "unit_uid": "L::0109FB7F8227489F80E887DFCFC9C69D_dd634dcf265875e48b382a750b9cfcc5c3c828cf_c0_s0",
+      "unit_row_index": 473,
+      "source_index": 717,
+      "source_geometry_hash": "dd634dcf265875e48b382a750b9cfcc5c3c828cf",
+      "recorded_type": "Completed Dozer Line",
+      "inherited_source_label_verified": true,
+      "retained_release_membership_verified": true,
+      "analysis_crs_length_m": 250.00000000007975,
+      "checked_positions": 11,
+      "supported_positions": 11,
+      "positions_supporting_first_interval": 11,
+      "prediction_anchor_idx": 0,
+      "prediction_anchor_utc": "2021-06-16T05:00:00+00:00",
+      "sample_row_indices": [
+        3854,
+        3855,
+        3856,
+        3857,
+        3858,
+        3859,
+        3860,
+        3861,
+        3862,
+        3863,
+        3864
+      ],
+      "saved_raster_signed_distance_ranges_m": [
+        [
+          158.11387634277344,
+          250.0
+        ],
+        [
+          -251.0,
+          -134.62911987304688
+        ],
+        [
+          -251.0,
+          -134.62911987304688
+        ],
+        [
+          -251.0,
+          -134.62911987304688
+        ],
+        [
+          -251.0,
+          -134.62911987304688
+        ],
+        [
+          -230.48861694335938,
+          -70.71067810058594
+        ],
+        [
+          -251.0,
+          -134.62911987304688
+        ]
+      ],
+      "distance_range_note": "Saved signed distances are capped at -251/+251 m; sentinel values are not exact distances."
+    }
+  },
+  "sources": {
+    "retained": {
+      "path": "zenodo_upload_v1\\data\\retained_fireline_units.parquet",
+      "bytes": 714609286,
+      "sha256": "74864c1f7a1d52d88d54ca8d7d346d7b2bbd1d868440f316857fe26bcc53931c"
+    },
+    "units": {
+      "path": "data\\processed\\fireline_corrected_local_250m_10m\\units\\0109FB7F8227489F80E887DFCFC9C69D.parquet",
+      "bytes": 263097,
+      "sha256": "04e4b68c76b9bb215e8c856480f982cde3d176a6fcf5d57dada68c64b5f03718"
+    },
+    "parents": {
+      "path": "data\\processed\\fireline_corrected_local_250m_10m\\canonical_parent_shards\\0109FB7F8227489F80E887DFCFC9C69D.parquet",
+      "bytes": 215581,
+      "sha256": "88c464296298dc336017d9a73f673469b6d586a415aad4324e70d8ad96454b4c"
+    },
+    "points": {
+      "path": "data\\processed\\fireline_corrected_local_250m_10m\\point_evidence\\0109FB7F8227489F80E887DFCFC9C69D.parquet",
+      "bytes": 134042,
+      "sha256": "a6712e0b7914557a20291e06a2845e26db58ddacf37161eabd9c6fffcd91d04e"
+    },
+    "trajectories": {
+      "path": "data\\processed\\fireline_corrected_local_250m_10m\\trajectories\\0109FB7F8227489F80E887DFCFC9C69D.npz",
+      "bytes": 117732,
+      "sha256": "968b8961df552d37ed65d9965e9600c1fbe02fff92ccfc31b14344bbab09125f"
+    },
+    "perimeters": {
+      "path": "data\\processed\\fireline_extended_exact_approach_v3\\nirops_progression_cache\\nirops_dynamic_382_progression_epsg5070.parquet",
+      "bytes": 1233355404,
+      "sha256": "f9c5379cb5de10fb035950dc08d35c669ff543ab93a5a3ebdf0474bee241fa50"
+    }
+  },
+  "checks_passed": [
+    "Both selected unit IDs occur in the final retained release",
+    "NIFC source-record label inheritance matches",
+    "Each selected analysis geometry is a 250 m LineString",
+    "Saved and vector timestamps agree",
+    "All checked positions begin more than 50 m outside the saved fire area",
+    "Held: all 11 positions supported, no checked position more than 50 m inside in any later observation",
+    "Held: 10 of 11 positions support the first interval; 1 supports the next interval",
+    "Burned Over: all 11 positions cross from more than 50 m outside to more than 50 m inside within 18.5 hours"
+  ]
+}

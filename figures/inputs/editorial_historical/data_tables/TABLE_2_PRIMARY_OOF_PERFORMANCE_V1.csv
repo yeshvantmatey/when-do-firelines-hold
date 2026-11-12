@@ -1,0 +1,10 @@
+metric,metric_id,point_estimate,incident_cluster_bootstrap_ci_low,incident_cluster_bootstrap_ci_high,evaluation_scope
+Mean predicted probability,mean_pred,0.7214257413024397,,,pooled units
+Pooled PR-AUC,pooled_pr_auc,0.8280331797679552,,,pooled units
+Pooled ROC-AUC,pooled_roc_auc,0.7191559825223551,,,pooled units
+Pooled Brier score,pooled_brier,0.1897899995605619,0.1656166379944796,0.2104783632646076,pooled units
+Pooled log loss,pooled_log_loss,0.5654204087740415,0.5088865349224599,0.6126652599159791,pooled units
+Incident-macro Brier score,incident_macro_brier,0.1432667081434898,0.1328512249117681,0.1539828278519038,incident macro
+Incident-macro log loss,incident_macro_log_loss,0.4598001341640025,0.4328945153102463,0.4876322525133317,incident macro
+Mixed-incident macro PR-AUC,mixed_incident_macro_pr_auc,0.8409959839939674,0.8229737573439404,0.858302932410477,"mixed incidents, macro"
+Mixed-incident macro ROC-AUC,mixed_incident_macro_roc_auc,0.5807679567809377,0.5577725468496139,0.602663760910587,"mixed incidents, macro"

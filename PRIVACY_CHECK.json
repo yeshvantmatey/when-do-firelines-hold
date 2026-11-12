@@ -1,0 +1,29 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_SCAN_LIMITS",
+  "credential_pattern_candidates": 0,
+  "private_workstation_paths_in_public_code_or_archive": 0,
+  "notebook_output_blocks": 0,
+  "notebook_execution_counts": 0,
+  "notebooks_syntax_checked": 49,
+  "code_cells_syntax_checked": 649,
+  "preserved_public_contacts": [
+    "corresponding author",
+    "AMS template contacts",
+    "NIFC source contacts",
+    "Census source contacts"
+  ],
+  "upstream_metadata_exception": "One Metavist stylesheet path in the original published NIFC metadata ZIP is preserved; no researcher workstation path.",
+  "scanned_formats": [
+    "text and parsed JSON",
+    "notebook sources/metadata",
+    "nested ZIP text",
+    "PDF metadata and extractable text",
+    "Parquet string fields and schema metadata"
+  ],
+  "limits": [
+    "Pattern scanning is not proof of absence of every secret.",
+    "Dense historical PDF figure text extraction is incomplete."
+  ],
+  "originals_unchanged": true,
+  "core_parquet_tables_byte_identical": true
+}

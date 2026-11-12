@@ -1,0 +1,2 @@
+source_corrected_units,frozen_supported_units,excluded_units,frozen_incidents,held_units,burned_over_units,dynamic_timing_eligible_units,dynamic_timing_eligible_pct,timing_ambiguous_or_missing_units,support_threshold,held_conflict_tolerance,timing_confidence_threshold
+572200,317495,254705,382,212132,105363,315035,99.22518464857714,2460,0.1,0.0,0.5

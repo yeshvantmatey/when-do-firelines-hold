@@ -1,0 +1,93 @@
+{
+  "status": "PASS_LOCAL_RELEASE_PREPARATION",
+  "published": false,
+  "model_training_performed": false,
+  "syntax": {
+    "py_files": 15,
+    "notebooks": 49,
+    "code_cells": 649,
+    "errors": [],
+    "selected_notebook_source_transform_mismatches": []
+  },
+  "saved_results": {
+    "status": "PASS",
+    "checks": 95,
+    "failed_checks": [],
+    "primary_bootstrap_replicates_checked": 5000
+  },
+  "figure_redraws": {
+    "status": "PASS_REDRAWS",
+    "versions": {
+      "numpy": "2.5.2",
+      "pandas": "3.0.5",
+      "pyarrow": "25.0.1",
+      "matplotlib": "3.11.1",
+      "geopandas": "1.1.4",
+      "pyogrio": "0.13.0",
+      "pyproj": "3.7.2",
+      "shapely": "2.1.2"
+    },
+    "scripts": [
+      {
+        "script": "reproduce_study_extent.py",
+        "run_passed": true,
+        "reference_png_size": [
+          2176,
+          1921
+        ],
+        "new_png_size": [
+          2179,
+          1922
+        ],
+        "pixels_identical": false
+      },
+      {
+        "script": "reproduce_nifc_nirops_example.py",
+        "run_passed": true,
+        "reference_png_size": [
+          2469,
+          1121
+        ],
+        "new_png_size": [
+          2469,
+          1121
+        ],
+        "pixels_identical": true
+      },
+      {
+        "script": "reproduce_schematic.py",
+        "run_passed": true,
+        "reference_png_size": [
+          2860,
+          2280
+        ],
+        "new_png_size": [
+          2860,
+          2280
+        ],
+        "pixels_identical": true
+      },
+      {
+        "script": "reproduce_editorial_historical.py",
+        "run_passed": true,
+        "scope": "Historical four figures and six table snippets; not current pooled forward-year figure."
+      }
+    ],
+    "notes": [
+      "All scientific input assertions passed. No models fitted.",
+      "NIFC-NIROPS and schematic PNGs are pixel-identical to preserved reference outputs.",
+      "Study-extent labels and 381 point coordinates are unchanged; tight bounding-box dimensions differ by three horizontal pixels and one vertical pixel in the tested rendering environment. Figure visually reviewed.",
+      "Historical editorial figures are explicitly labeled as historical; these do not replace the current manuscript figures."
+    ]
+  },
+  "remaining_publication_fields": [
+    "DOIs",
+    "licenses",
+    "final metadata/version/date",
+    "publication or reviewer-access choice"
+  ],
+  "limits": [
+    "Historical model refitting/upstream reconstruction not retested.",
+    "PDF text extraction and secret-pattern scans are not exhaustive."
+  ]
+}

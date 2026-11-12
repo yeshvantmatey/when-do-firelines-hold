@@ -1,0 +1,10 @@
+# Tested for the standalone saved-data redraws in figures/.
+# Historical training notebooks require additional dependencies.
+numpy==2.5.2
+pandas==3.0.5
+pyarrow==25.0.1
+matplotlib==3.11.1
+geopandas==1.1.4
+pyogrio==0.13.0
+pyproj==3.7.2
+shapely==2.1.2

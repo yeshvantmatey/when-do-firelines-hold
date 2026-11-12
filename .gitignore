@@ -1,0 +1,57 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Full data, trained models, logs, and generated results belong outside this repo
+/data/
+/dataset/
+/evidence/
+/models/
+/outputs/
+/output/
+/results/
+/reproduced_results/
+/verification_results/
+/redrawn_figures/
+/analysis_archive/
+/zenodo/
+*.log
+*.parquet
+*.feather
+*.arrow
+*.pkl
+*.pickle
+*.joblib
+*.npz
+*.zip
+*.tif
+*.tiff
+*.grib*
+*.zarr/
+
+# Preserve the small published figure inputs and comparison assets
+!/figures/inputs/**
+!/figures/reference_outputs/**
+
+# Secrets and workstation files remain ignored even inside figure directories
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+.codex/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

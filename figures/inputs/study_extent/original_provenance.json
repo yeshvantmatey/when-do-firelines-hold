@@ -1,0 +1,50 @@
+{
+  "figure": "fig_study_extent.pdf",
+  "source_csv": "PROJECT_ROOT\\outputs\\08_condition_outcomes\\08E_20261105T211309_533108Z_9ff65f\\fire_locations_and_sizes.csv",
+  "source_sha256": "3dee0031d4e7f39e22c97277f0e703cffb4e114411106ea7edd059e71157f567",
+  "source_notebook": "notebooks/08E_reviewer_diagnostics.ipynb",
+  "source_operation": "groupby fire identifier and Year; mean longitude/latitude of retained units",
+  "fire_count": 381,
+  "fireline_unit_count": 304143,
+  "fires_by_year": {
+    "2020": 89,
+    "2021": 87,
+    "2022": 54,
+    "2023": 47,
+    "2024": 104
+  },
+  "marker_size_points_squared": 20,
+  "marker_meaning": "one source fire identifier",
+  "does_not_show": [
+    "ignition locations",
+    "burned footprints",
+    "fire perimeter centroids",
+    "geographic holdout split"
+  ],
+  "boundary_source": "https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_us_state_20m.zip",
+  "boundary_scale": "1:20,000,000",
+  "boundary_zip_sha256": "0fd2d6562708ff8182c00d5d25b5556d049ecf2794d97b89ed2dac4d5e9e2c8d",
+  "display_crs": "EPSG:5070 (NAD83 / Conus Albers)",
+  "input_point_crs": "EPSG:4326",
+  "display_bounds_projected_m": [
+    -2500000.0,
+    910000.0,
+    -570000.0,
+    3230000.0
+  ],
+  "point_bounds_lonlat": [
+    -124.337966576025,
+    31.492285350725798,
+    -104.98640456210312,
+    48.868145687648095
+  ],
+  "all_points_within_display": true,
+  "illustrative_fire": {
+    "source_fire_identifier": "0109FB7F8227489F80E887DFCFC9C69D",
+    "name": "Deep Creek Canyon",
+    "year": 2021,
+    "longitude": -111.14242779952556,
+    "latitude": 46.36658244847524,
+    "marker": "black star overlaid at the existing representative coordinate; no point displacement"
+  }
+}

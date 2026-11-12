@@ -1,0 +1,14 @@
+item,value,scientific_role
+Analysis period,2020–2024,Frozen modeled cohort
+Analysis units,"304,143",Local fireline units
+Wildfire incidents,381,Grouping and resampling unit
+Unit-level Held prevalence,0.677,Binary target prevalence
+Outer validation folds,5,Incident-disjoint OOF evaluation
+Frozen predictors,803,Primary feature contract
+Fire-approach predictors,60,Physical/dynamic
+Weather predictors,148,Physical/dynamic
+Terrain predictors,37,Physical/static
+Fuels/canopy predictors,547,Physical/static by retrospective vintage
+Observation-process predictors,11,Isolated in sensitivity analysis
+Primary estimator,LightGBM binary classifier,Frozen fixed-parameter model
+Scientific probability output,Raw P(Held),No post-hoc calibration or threshold

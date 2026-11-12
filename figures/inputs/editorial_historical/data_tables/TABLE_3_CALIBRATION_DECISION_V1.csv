@@ -1,0 +1,10 @@
+metric,raw,nested_calibrated,cal_minus_raw,interpretation,bootstrap_mean_cal_minus_raw,ci_low,ci_high,probability_calibration_better
+mean_pred,0.7214257413024397,0.6771178623527085,-0.0443078789497312,Calibration effect; see paired bootstrap interval,,,,
+pooled_pr_auc,0.8280331797679552,0.8241999829394425,-0.0038331968285126,Calibration effect; see paired bootstrap interval,,,,
+pooled_roc_auc,0.7191559825223551,0.7152364430342367,-0.0039195394881184,Calibration effect; see paired bootstrap interval,,,,
+pooled_brier,0.1897899995605619,0.189251022809977,-0.0005389767505848,Calibration effect; see paired bootstrap interval,-0.0005497275694332,-0.0049089066049871,0.0030132322458348,0.575
+pooled_log_loss,0.5654204087740415,0.5609854697082481,-0.0044349390657933,Calibration effect; see paired bootstrap interval,-0.0044234576118427,-0.017188312310723,0.0062918133484899,0.757
+incident_macro_brier,0.1432667081434898,0.146891878435942,0.0036251702924521,Positive delta favors raw probabilities for lower-is-better incident loss,0.0036442165981415,0.0013628492356692,0.0058946068144945,0.0012
+incident_macro_log_loss,0.4598001341640025,0.4687975034069641,0.0089973692429616,Positive delta favors raw probabilities for lower-is-better incident loss,0.0090624452472564,0.0010423937327,0.0168424976636464,0.015
+mixed_incident_macro_pr_auc,0.8409959839939674,0.8409959839939674,0.0,Calibration effect; see paired bootstrap interval,0.0,0.0,0.0,0.0
+mixed_incident_macro_roc_auc,0.5807679567809377,0.5807679567809377,0.0,Calibration effect; see paired bootstrap interval,0.0,0.0,0.0,0.0

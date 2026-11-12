@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Cite the paper's named code release and the shared Zenodo record. Link placeholders are comments until finalized."
+type: software
+title: "When Do Firelines Hold? Predicting Recorded Outcomes from Weather and Landscape Conditions — Analysis Code"
+authors:
+  - family-names: Matey
+    given-names: Yeshvant
+    affiliation: University of California San Diego
+  - family-names: de Callafon
+    given-names: Raymond
+    affiliation: University of California San Diego
+  - family-names: Altintas
+    given-names: Ilkay
+    affiliation: San Diego Supercomputer Center, University of California San Diego
+version: 1.0.0-draft
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "Analysis notebooks, saved-prediction verification and figure-generation code supporting retrospective fireline-outcome research."
+keywords:
+  - wildfire
+  - fireline outcomes
+  - probabilistic prediction
+  - model evaluation
+# Shared record DOI: [ZENODO-DOI]
+repository-code: "https://github.com/yeshvantmatey/when-do-firelines-hold"
+# url: [GITHUB-RELEASE-URL]
+# Exact code commit: [GITHUB-COMMIT-SHA]
+# Replace comments with real DOI/URL fields after the identifiers exist.

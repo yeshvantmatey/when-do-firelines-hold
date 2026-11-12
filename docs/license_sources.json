@@ -1,0 +1,34 @@
+{
+  "path_base": "package_root",
+  "prepared_date": "2026-11-11",
+  "files": [
+    {
+      "file": "LICENSES/CC-BY-4.0.txt",
+      "source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "operation": "verbatim license text downloaded from publisher"
+    },
+    {
+      "file": "LICENSES/LPPL-1.3c.txt",
+      "source_url": "https://www.latex-project.org/lppl.txt",
+      "bytes": 19036,
+      "sha256": "c1ae6e179a6d28bbd5c483fbacc744acc75e922d598281dc3390aab26126e163",
+      "operation": "verbatim license text downloaded from publisher"
+    },
+    {
+      "file": "LICENSES/MIT.txt",
+      "source_url": "https://opensource.org/license/mit",
+      "bytes": 1099,
+      "sha256": "ec4525f3a80b58b6a9d05dd910bf29a2fb268ed6ce5787641203ddc1b802fecb",
+      "operation": "standard MIT text with authorized project copyright notice"
+    },
+    {
+      "file": "LICENSE",
+      "source_url": "https://opensource.org/license/mit",
+      "bytes": 1099,
+      "sha256": "ec4525f3a80b58b6a9d05dd910bf29a2fb268ed6ce5787641203ddc1b802fecb",
+      "operation": "byte-identical copy of LICENSES/MIT.txt"
+    }
+  ]
+}

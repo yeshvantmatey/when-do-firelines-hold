@@ -1,0 +1,11 @@
+source_file,archival_status,reason
+scripts/06b_gpu_smoke_test.py,excluded,Manuscript/editorial assembly or exploratory GPU/preflight utility outside selected release computation.
+scripts/06b_notebook_preflight.py,excluded,Manuscript/editorial assembly or exploratory GPU/preflight utility outside selected release computation.
+scripts/assemble_ieee_manuscript.py,excluded,Manuscript/editorial assembly or exploratory GPU/preflight utility outside selected release computation.
+scripts/build_editorial_assets.py,excluded,Manuscript/editorial assembly or exploratory GPU/preflight utility outside selected release computation.
+scripts/build_paper_draft_v1.py,excluded,Manuscript/editorial assembly or exploratory GPU/preflight utility outside selected release computation.
+scripts/build_zenodo_core_v1.py,selected_unchanged,Original construction and validation of the two retained core release tables.
+scripts/complete_table_ii_bootstrap.py,selected_unchanged,Same fixed-prediction Table II completion as 05E2.
+scripts/prepare_zenodo_release_staging.py,excluded,Manuscript/editorial assembly or exploratory GPU/preflight utility outside selected release computation.
+scripts/renumber_combined_supplement.py,excluded,Manuscript/editorial assembly or exploratory GPU/preflight utility outside selected release computation.
+scripts/verify_ieee_pdfs.py,excluded,Manuscript/editorial assembly or exploratory GPU/preflight utility outside selected release computation.

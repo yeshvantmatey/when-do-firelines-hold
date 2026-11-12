@@ -1,0 +1,6 @@
+# Dependencies for verify_release.py and reproduce_saved_results.py only.
+# Training/geospatial notebooks have additional dependencies documented separately.
+numpy>=1.24
+pandas>=2.0
+pyarrow>=14
+scikit-learn>=1.4

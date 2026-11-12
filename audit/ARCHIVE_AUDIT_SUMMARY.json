@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-11-11T01:08:34.077311+00:00",
+  "selected_notebooks": 46,
+  "excluded_notebooks": 52,
+  "selected_scripts": 2,
+  "source_preservation_passed": true,
+  "original_files_unchanged": true,
+  "notebooks_executed": false,
+  "secret_pattern_candidates": 0,
+  "manifest_source_matches": [
+    {
+      "source_file": "notebooks/08A_fireline_characteristics_and_condition_outcomes.ipynb",
+      "manifest": "outputs/08_condition_outcomes/08A_20260930T220658_104767Z_614ae3/08A_run_manifest.json",
+      "saved_source_hash": "ae33c8ef7de8186f207736bf432c88623aeda0e60ba28e84298b521fca555a49",
+      "current_source_hash": "ae33c8ef7de8186f207736bf432c88623aeda0e60ba28e84298b521fca555a49",
+      "algorithm": "sha256 JSON list of all cell source values",
+      "status": "matches_saved_source_hash"
+    },
+    {
+      "source_file": "notebooks/08B_original_firelines_scale_and_selection.ipynb",
+      "manifest": "outputs/08_condition_outcomes/08B_20260930T224636_898345Z_38d03c/08B_run_manifest.json",
+      "saved_source_hash": "2350011ba26bea76511377f7e8ae4f0074103b11181bf7848e28418fe9101de9",
+      "current_source_hash": "2350011ba26bea76511377f7e8ae4f0074103b11181bf7848e28418fe9101de9",
+      "algorithm": "sha256 JSON list of all cell source values",
+      "status": "matches_saved_source_hash"
+    },
+    {
+      "source_file": "notebooks/08C_interpretable_condition_rules.ipynb",
+      "manifest": "outputs/08_condition_outcomes/08C_20260930T234354_724489Z_3a31ea/08C_run_manifest.json",
+      "saved_source_hash": "812344d9c53ecda50710fcbbb48f40c598216fd1ffe49d8fd756e4e3e9127b82",
+      "current_source_hash": "812344d9c53ecda50710fcbbb48f40c598216fd1ffe49d8fd756e4e3e9127b82",
+      "algorithm": "sha256 JSON list of all cell source values",
+      "status": "matches_saved_source_hash"
+    },
+    {
+      "source_file": "notebooks/08D_baseline_and_condition_robustness.ipynb",
+      "manifest": "outputs/08_condition_outcomes/08D_20261001T002458_892164Z_f3e697/08D_run_manifest.json",
+      "saved_source_hash": "3ea80b0654f0b030ebd8f5e6f2e722529dfc27e9e2c1b10162b47d33c3039f2c",
+      "current_source_hash": "3ea80b0654f0b030ebd8f5e6f2e722529dfc27e9e2c1b10162b47d33c3039f2c",
+      "algorithm": "sha256 JSON list of all cell source values",
+      "status": "matches_saved_source_hash"
+    },
+    {
+      "source_file": "notebooks/08E_reviewer_diagnostics.ipynb",
+      "manifest": "outputs/08_condition_outcomes/08E_20261105T211309_533108Z_9ff65f/08E_run_manifest.json",
+      "saved_source_hash": "a41467fe191449bbe202a6926a260f67ca0529ac22561e5362b4ebad62d27656",
+      "current_source_hash": "a41467fe191449bbe202a6926a260f67ca0529ac22561e5362b4ebad62d27656",
+      "algorithm": "08E AST-normalized except resume path",
+      "status": "matches_saved_source_hash"
+    }
+  ],
+  "static_path_references": 555,
+  "absolute_path_references": 45,
+  "manifest_input_references": 458,
+  "static_parse_limitations": 0,
+  "portable_end_to_end_pipeline": false
+}

@@ -1,0 +1,9 @@
+Observed local verification environment, 2026-11-10:
+Python 3.12.1
+numpy==2.5.2
+pandas==3.0.5
+pyarrow==25.0.1
+scikit-learn==1.9.0
+
+These are observed versions for release checking, not a reconstruction of every
+historical training environment. See code/environment for recorded study versions.

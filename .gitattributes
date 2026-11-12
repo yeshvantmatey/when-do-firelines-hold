@@ -1,0 +1,27 @@
+# Preserve bytes across platforms so archived snapshot checksums remain valid.
+* -text
+
+# Readable diffs for authored source and metadata; no line-ending conversion.
+*.py diff=python
+*.ipynb diff
+*.md diff
+*.txt diff
+*.json diff
+*.csv diff
+*.cff diff
+*.yml diff
+*.yaml diff
+
+# Never treat scientific arrays, geometry containers, images or archives as text.
+*.parquet binary
+*.npz binary
+*.zip binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.shp binary
+*.shx binary
+*.dbf binary
+*.sbn binary
+*.sbx binary

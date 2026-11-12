@@ -1,0 +1,48 @@
+evidence_file,package,saved_version
+outputs/baseline_modeling_v1/SOFTWARE_VERSIONS_V1.csv,python,3.12.1
+outputs/baseline_modeling_v1/SOFTWARE_VERSIONS_V1.csv,numpy,2.5.2
+outputs/baseline_modeling_v1/SOFTWARE_VERSIONS_V1.csv,pandas,3.0.5
+outputs/baseline_modeling_v1/SOFTWARE_VERSIONS_V1.csv,scikit-learn,1.9.0
+outputs/baseline_modeling_v1/SOFTWARE_VERSIONS_V1.csv,lightgbm,4.7.0
+outputs/alternative_model_benchmark_v1/SOFTWARE_VERSIONS_V1.csv,python,3.12.1
+outputs/alternative_model_benchmark_v1/SOFTWARE_VERSIONS_V1.csv,numpy,2.5.2
+outputs/alternative_model_benchmark_v1/SOFTWARE_VERSIONS_V1.csv,pandas,3.0.5
+outputs/alternative_model_benchmark_v1/SOFTWARE_VERSIONS_V1.csv,scikit-learn,1.9.0
+outputs/alternative_model_benchmark_v1/SOFTWARE_VERSIONS_V1.csv,xgboost,3.4.1
+outputs/alternative_model_benchmark_v1/SOFTWARE_VERSIONS_V1.csv,catboost,1.2.10
+outputs/alternative_model_benchmark_v1/SOFTWARE_VERSIONS_V1.csv,interpret,0.7.8
+outputs/08_condition_outcomes/08A_20260930T220658_104767Z_614ae3/08A_run_manifest.json,numpy,2.5.2
+outputs/08_condition_outcomes/08A_20260930T220658_104767Z_614ae3/08A_run_manifest.json,pandas,3.0.5
+outputs/08_condition_outcomes/08A_20260930T220658_104767Z_614ae3/08A_run_manifest.json,pyarrow,25.0.1
+outputs/08_condition_outcomes/08A_20260930T220658_104767Z_614ae3/08A_run_manifest.json,matplotlib,3.11.1
+outputs/08_condition_outcomes/08A_20260930T220658_104767Z_614ae3/08A_run_manifest.json,python,"3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]"
+outputs/08_condition_outcomes/08B_20260930T224636_898345Z_38d03c/08B_run_manifest.json,numpy,2.5.2
+outputs/08_condition_outcomes/08B_20260930T224636_898345Z_38d03c/08B_run_manifest.json,pandas,3.0.5
+outputs/08_condition_outcomes/08B_20260930T224636_898345Z_38d03c/08B_run_manifest.json,pyarrow,25.0.1
+outputs/08_condition_outcomes/08B_20260930T224636_898345Z_38d03c/08B_run_manifest.json,shapely,2.1.2
+outputs/08_condition_outcomes/08B_20260930T224636_898345Z_38d03c/08B_run_manifest.json,pyproj,3.7.2
+outputs/08_condition_outcomes/08B_20260930T224636_898345Z_38d03c/08B_run_manifest.json,matplotlib,3.11.1
+outputs/08_condition_outcomes/08B_20260930T224636_898345Z_38d03c/08B_run_manifest.json,IPython,9.16.1
+outputs/08_condition_outcomes/08B_20260930T224636_898345Z_38d03c/08B_run_manifest.json,python,"3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]"
+outputs/08_condition_outcomes/08C_20260930T234354_724489Z_3a31ea/08C_run_manifest.json,numpy,2.5.2
+outputs/08_condition_outcomes/08C_20260930T234354_724489Z_3a31ea/08C_run_manifest.json,pandas,3.0.5
+outputs/08_condition_outcomes/08C_20260930T234354_724489Z_3a31ea/08C_run_manifest.json,pyarrow,25.0.1
+outputs/08_condition_outcomes/08C_20260930T234354_724489Z_3a31ea/08C_run_manifest.json,scikit-learn,1.9.0
+outputs/08_condition_outcomes/08C_20260930T234354_724489Z_3a31ea/08C_run_manifest.json,matplotlib,3.11.1
+outputs/08_condition_outcomes/08C_20260930T234354_724489Z_3a31ea/08C_run_manifest.json,IPython,9.16.1
+outputs/08_condition_outcomes/08C_20260930T234354_724489Z_3a31ea/08C_run_manifest.json,python,"3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]"
+outputs/08_condition_outcomes/08D_20261001T002458_892164Z_f3e697/08D_run_manifest.json,numpy,2.5.2
+outputs/08_condition_outcomes/08D_20261001T002458_892164Z_f3e697/08D_run_manifest.json,pandas,3.0.5
+outputs/08_condition_outcomes/08D_20261001T002458_892164Z_f3e697/08D_run_manifest.json,pyarrow,25.0.1
+outputs/08_condition_outcomes/08D_20261001T002458_892164Z_f3e697/08D_run_manifest.json,scikit-learn,1.9.0
+outputs/08_condition_outcomes/08D_20261001T002458_892164Z_f3e697/08D_run_manifest.json,matplotlib,3.11.1
+outputs/08_condition_outcomes/08D_20261001T002458_892164Z_f3e697/08D_run_manifest.json,IPython,9.16.1
+outputs/08_condition_outcomes/08D_20261001T002458_892164Z_f3e697/08D_run_manifest.json,python,"3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]"
+outputs/08_condition_outcomes/08E_20261105T211309_533108Z_9ff65f/08E_run_manifest.json,numpy,2.5.2
+outputs/08_condition_outcomes/08E_20261105T211309_533108Z_9ff65f/08E_run_manifest.json,pandas,3.0.5
+outputs/08_condition_outcomes/08E_20261105T211309_533108Z_9ff65f/08E_run_manifest.json,pyarrow,25.0.1
+outputs/08_condition_outcomes/08E_20261105T211309_533108Z_9ff65f/08E_run_manifest.json,scikit-learn,1.9.0
+outputs/08_condition_outcomes/08E_20261105T211309_533108Z_9ff65f/08E_run_manifest.json,lightgbm,4.7.0
+outputs/08_condition_outcomes/08E_20261105T211309_533108Z_9ff65f/08E_run_manifest.json,matplotlib,3.11.1
+outputs/08_condition_outcomes/08E_20261105T211309_533108Z_9ff65f/08E_run_manifest.json,joblib,1.5.3
+outputs/08_condition_outcomes/08E_20261105T211309_533108Z_9ff65f/08E_run_manifest.json,python,"3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]"

@@ -1,0 +1,320 @@
+{
+  "scope": "Added figure sources, plotted inputs, and portable redraw adapters; no model fitting.",
+  "entries": [
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/build_study_extent.py",
+      "source_sha256": "b7d777e371adfe997032d650d0775b69a9cc31a6b4f5651e2b1ef88c4f4a374e",
+      "release_file": "figures/original_sources/build_study_extent.py",
+      "release_sha256": "b7d777e371adfe997032d650d0775b69a9cc31a6b4f5651e2b1ef88c4f4a374e",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/nifc_nirops_example/build_nifc_nirops_example.py",
+      "source_sha256": "0f0909a391b09cf7978ea81c21aa098b45d6d7095efd6416930f7ec75a22e5d5",
+      "release_file": "figures/original_sources/build_nifc_nirops_example.py",
+      "release_sha256": "0f0909a391b09cf7978ea81c21aa098b45d6d7095efd6416930f7ec75a22e5d5",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "scripts/build_editorial_assets.py",
+      "source_sha256": "3459824c3f776cac9f1b3ac9d487de8f5104d91356da5f7de26c0276d1bfa502",
+      "release_file": "figures/original_sources/build_editorial_assets.py",
+      "release_sha256": "3459824c3f776cac9f1b3ac9d487de8f5104d91356da5f7de26c0276d1bfa502",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "notebooks/07D_fireline_methods_schematic.ipynb",
+      "source_sha256": "254746e5757f133bbd022125f2a6ef71b9c4704d6dc43c1c69a06b0cb55bcc73",
+      "release_file": "figures/original_sources/07D_fireline_methods_schematic.ipynb",
+      "release_sha256": "ba6f531c3bb4389d2a4663084101c2465e6d3895fc06ba910e2fd81f9e9111e2",
+      "operation": "notebook outputs/execution state cleared; source cells unchanged; public-copy path normalization and/or serialization"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/regenerate_figures.ipynb",
+      "source_sha256": "9a79692c17578e60b4d3f6be34028ea82e6db49fa0e9b179317691c4c0f14763",
+      "release_file": "figures/original_sources/regenerate_geographic_figures.ipynb",
+      "release_sha256": "2e9abfa6bbd837722274fe4f16e78ed18395dd2970e97496fc851d466703e1ff",
+      "operation": "notebook outputs/execution state cleared; source cells unchanged; public-copy path normalization and/or serialization"
+    },
+    {
+      "source": "outputs/08_condition_outcomes/08E_20261105T211309_533108Z_9ff65f/fire_locations_and_sizes.csv",
+      "source_sha256": "3dee0031d4e7f39e22c97277f0e703cffb4e114411106ea7edd059e71157f567",
+      "release_file": "figures/inputs/study_extent/fire_locations_and_sizes.csv",
+      "release_sha256": "3dee0031d4e7f39e22c97277f0e703cffb4e114411106ea7edd059e71157f567",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/cb_2023_us_state_20m.zip",
+      "source_sha256": "0fd2d6562708ff8182c00d5d25b5556d049ecf2794d97b89ed2dac4d5e9e2c8d",
+      "release_file": "figures/inputs/study_extent/cb_2023_us_state_20m.zip",
+      "release_sha256": "0fd2d6562708ff8182c00d5d25b5556d049ecf2794d97b89ed2dac4d5e9e2c8d",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/boundaries/cb_2023_us_state_20m.cpg",
+      "source_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "release_file": "figures/inputs/study_extent/boundaries/cb_2023_us_state_20m.cpg",
+      "release_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/boundaries/cb_2023_us_state_20m.dbf",
+      "source_sha256": "50b851b13d20edc169ad1011bbe72548aa3cc2c1e2e32067bcedbbc64cf4d586",
+      "release_file": "figures/inputs/study_extent/boundaries/cb_2023_us_state_20m.dbf",
+      "release_sha256": "50b851b13d20edc169ad1011bbe72548aa3cc2c1e2e32067bcedbbc64cf4d586",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/boundaries/cb_2023_us_state_20m.prj",
+      "source_sha256": "0b9041e921d9ebb43247d314608fe9e38a0b008ee793067fc1806199ea1fb9dd",
+      "release_file": "figures/inputs/study_extent/boundaries/cb_2023_us_state_20m.prj",
+      "release_sha256": "0b9041e921d9ebb43247d314608fe9e38a0b008ee793067fc1806199ea1fb9dd",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/boundaries/cb_2023_us_state_20m.shp",
+      "source_sha256": "028203ae4c69cd38259c10ac9070b1fe489eb1a52d2334e3cfdd883d432b13a7",
+      "release_file": "figures/inputs/study_extent/boundaries/cb_2023_us_state_20m.shp",
+      "release_sha256": "028203ae4c69cd38259c10ac9070b1fe489eb1a52d2334e3cfdd883d432b13a7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/boundaries/cb_2023_us_state_20m.shp.ea.iso.xml",
+      "source_sha256": "e9c052cc52662e8ade00830b6459f7491f7038384cb91ceb1e5da31f8b7f5e13",
+      "release_file": "figures/inputs/study_extent/boundaries/cb_2023_us_state_20m.shp.ea.iso.xml",
+      "release_sha256": "e9c052cc52662e8ade00830b6459f7491f7038384cb91ceb1e5da31f8b7f5e13",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/boundaries/cb_2023_us_state_20m.shp.iso.xml",
+      "source_sha256": "cd597703e493d5a00ba289c7b2935dabf999916b6f1fa3d590acc8d308cd2ad3",
+      "release_file": "figures/inputs/study_extent/boundaries/cb_2023_us_state_20m.shp.iso.xml",
+      "release_sha256": "cd597703e493d5a00ba289c7b2935dabf999916b6f1fa3d590acc8d308cd2ad3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/boundaries/cb_2023_us_state_20m.shx",
+      "source_sha256": "8847d498d5ffe669aedd3d420f891af9cda99b16ca463bdabf34b72acdae6bca",
+      "release_file": "figures/inputs/study_extent/boundaries/cb_2023_us_state_20m.shx",
+      "release_sha256": "8847d498d5ffe669aedd3d420f891af9cda99b16ca463bdabf34b72acdae6bca",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/provenance.json",
+      "source_sha256": "22f99ebb08d4c9a0ce5a3a4bca0412f976352823cb20770d3212ef1008a4ca14",
+      "release_file": "figures/inputs/study_extent/original_provenance.json",
+      "release_sha256": "fa1fcba61537be1e774119a3a0a38e10f923c74613af13152c978a087117f7c3",
+      "operation": "byte-identical copy; public-copy path normalization and/or serialization"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/build_study_extent.py",
+      "source_sha256": "b7d777e371adfe997032d650d0775b69a9cc31a6b4f5651e2b1ef88c4f4a374e",
+      "release_file": "figures/reproduce_study_extent.py",
+      "release_sha256": "dfc607ec0ea286b399bd274445456ff221cd6d814644b5dbf3f367d8f2ba41d0",
+      "operation": "input/output paths adapted; plotting and assertions preserved"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/nifc_nirops_example/selected_fireline_units.geojson",
+      "source_sha256": "be722f4a2a6adb8f06850ffb58b03a601689142a5b0d41f5ecc9d6547d1dc783",
+      "release_file": "figures/inputs/nifc_nirops_example/selected_fireline_units.geojson",
+      "release_sha256": "83b352fd28ea8a5fbfb90a677d2ff6ba4392cee67331461f309d540ee88b2e3f",
+      "operation": "byte-identical copy; public-copy path normalization and/or serialization"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/nifc_nirops_example/selected_fire_nirops_perimeters.geojson",
+      "source_sha256": "2b71a9fdeac725da98a86d6c93c2adbbfce604bd623c577542e5c51d6d1c4419",
+      "release_file": "figures/inputs/nifc_nirops_example/selected_fire_nirops_perimeters.geojson",
+      "release_sha256": "0bfce9bfa12a5e319f53a7c677649dd8801e55062ab02c23ddb55ac88ec1cd6f",
+      "operation": "byte-identical copy; public-copy path normalization and/or serialization"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/nifc_nirops_example/selected_checked_positions.csv",
+      "source_sha256": "7a780b75e4d4c6124433b642e33136c5905b24d74998865223aeda71c614117f",
+      "release_file": "figures/inputs/nifc_nirops_example/selected_checked_positions.csv",
+      "release_sha256": "7a780b75e4d4c6124433b642e33136c5905b24d74998865223aeda71c614117f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/nifc_nirops_example/checked_position_trajectories.csv",
+      "source_sha256": "c34972bc5e4d3509f58853e924efa8d69c3d82f1278011324e6e83747b59e16a",
+      "release_file": "figures/inputs/nifc_nirops_example/checked_position_trajectories.csv",
+      "release_sha256": "c34972bc5e4d3509f58853e924efa8d69c3d82f1278011324e6e83747b59e16a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/nifc_nirops_example/provenance.json",
+      "source_sha256": "a4fe3c4062ac1eca7b80ffc57cc103093e6a5314e3dc488de8db559842ef1dd9",
+      "release_file": "figures/inputs/nifc_nirops_example/original_provenance.json",
+      "release_sha256": "8506ba960b9abd91c3684dc401e8cd25f2e7657bb08d60e8618f2222d0bcb83b",
+      "operation": "byte-identical copy; public-copy path normalization and/or serialization"
+    },
+    {
+      "source": "data/processed/fireline_corrected_local_250m_10m/units/0109FB7F8227489F80E887DFCFC9C69D.parquet",
+      "source_sha256": "04e4b68c76b9bb215e8c856480f982cde3d176a6fcf5d57dada68c64b5f03718",
+      "release_file": "figures/inputs/nifc_nirops_example/selected_units_analysis_crs.parquet",
+      "release_sha256": "325557882d4f235590f20eefb6b3dadfbc8ccce493274831d51be41a8dc1ecb5",
+      "operation": "two plotted units, required columns; original geometry/CRS retained"
+    },
+    {
+      "source": "data/processed/fireline_corrected_local_250m_10m/canonical_parent_shards/0109FB7F8227489F80E887DFCFC9C69D.parquet",
+      "source_sha256": "88c464296298dc336017d9a73f673469b6d586a415aad4324e70d8ad96454b4c",
+      "release_file": "figures/inputs/nifc_nirops_example/context_source_firelines_analysis_crs.parquet",
+      "release_sha256": "2ea25b70f75b1b1a17f6bfb25db763d4baf599ec9c0bfd5d78a1617d69a35eae",
+      "operation": "context source lines, required columns; original geometry/CRS retained"
+    },
+    {
+      "source": "data/processed/fireline_extended_exact_approach_v3/nirops_progression_cache/nirops_dynamic_382_progression_epsg5070.parquet",
+      "source_sha256": "f9c5379cb5de10fb035950dc08d35c669ff543ab93a5a3ebdf0474bee241fa50",
+      "release_file": "figures/inputs/nifc_nirops_example/perimeters_analysis_crs.parquet",
+      "release_sha256": "6df60983a818572ec3dbcf4795996871c66bd1d5ebb3226d783e83153e22c9c6",
+      "operation": "seven observations of the example fire; original geometry/CRS retained"
+    },
+    {
+      "source": "zenodo_upload_v1/data/retained_fireline_units.parquet",
+      "source_sha256": "74864c1f7a1d52d88d54ca8d7d346d7b2bbd1d868440f316857fe26bcc53931c",
+      "release_file": "figures/inputs/nifc_nirops_example/retained_example_fire_units.csv",
+      "release_sha256": "141751430067c777bbc5f4bb1b634de2965342a05963ecf80c87b778ac54eaac",
+      "operation": "261 retained units from example fire; only membership/timing/label/length columns"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/nifc_nirops_example/build_nifc_nirops_example.py",
+      "source_sha256": "0f0909a391b09cf7978ea81c21aa098b45d6d7095efd6416930f7ec75a22e5d5",
+      "release_file": "figures/reproduce_nifc_nirops_example.py",
+      "release_sha256": "a30daaf9de4251e6accfa53885d718b17d71f5bf228cb04dc3d7c88efe84cd2c",
+      "operation": "read packaged geometry/trajectory extracts; output paths adapted; plotting and scientific assertions preserved"
+    },
+    {
+      "source": "notebooks/07D_fireline_methods_schematic.ipynb",
+      "source_sha256": "254746e5757f133bbd022125f2a6ef71b9c4704d6dc43c1c69a06b0cb55bcc73",
+      "release_file": "figures/reproduce_schematic.py",
+      "release_sha256": "5298be791d2c9e2ba2236ad7e2036e4b1c7c58b01c6743c7c67d65d007e09e2f",
+      "operation": "plot definitions extracted unchanged; new protected output path; editorial bundling omitted"
+    },
+    {
+      "source": "manuscript/ieee/provenance_tables/03N_FREEZE_SUMMARY.csv",
+      "source_sha256": "efac3ec3b18e73561cb1c65e6d9fd11b7eed4165b15ab1c5be8360405f773c6a",
+      "release_file": "figures/inputs/editorial_historical/provenance_tables/03N_FREEZE_SUMMARY.csv",
+      "release_sha256": "efac3ec3b18e73561cb1c65e6d9fd11b7eed4165b15ab1c5be8360405f773c6a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "manuscript/ieee/provenance_tables/FORWARD_TEMPORAL_SPLIT_DESIGN_V1.csv",
+      "source_sha256": "dc0f405ef37d85d90671b8705792269463157153305b53c8ad5e2929092388ff",
+      "release_file": "figures/inputs/editorial_historical/provenance_tables/FORWARD_TEMPORAL_SPLIT_DESIGN_V1.csv",
+      "release_sha256": "dc0f405ef37d85d90671b8705792269463157153305b53c8ad5e2929092388ff",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "manuscript/ieee/data_tables/ALTERNATIVE_MODEL_OOF_METRICS_V1.csv",
+      "source_sha256": "5435610c792c3d49f42465ae303db2c16f528fcc281d7ecc89d5274c003730e7",
+      "release_file": "figures/inputs/editorial_historical/data_tables/ALTERNATIVE_MODEL_OOF_METRICS_V1.csv",
+      "release_sha256": "5435610c792c3d49f42465ae303db2c16f528fcc281d7ecc89d5274c003730e7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "manuscript/ieee/data_tables/LEAKAGE_SAFE_TRANSFER_METRICS_V1.csv",
+      "source_sha256": "8a69b634dfc0a01cb1a2c11f25c38d9901430eebafd3d66fa898328d234d9da7",
+      "release_file": "figures/inputs/editorial_historical/data_tables/LEAKAGE_SAFE_TRANSFER_METRICS_V1.csv",
+      "release_sha256": "8a69b634dfc0a01cb1a2c11f25c38d9901430eebafd3d66fa898328d234d9da7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "manuscript/ieee/data_tables/TABLE_1_COHORT_AND_MODEL_CONTRACT_V1.csv",
+      "source_sha256": "df8c16113ad9e0ed684e82c512a203a65ea0cfbef7796498fcae0bdb45524ea6",
+      "release_file": "figures/inputs/editorial_historical/data_tables/TABLE_1_COHORT_AND_MODEL_CONTRACT_V1.csv",
+      "release_sha256": "df8c16113ad9e0ed684e82c512a203a65ea0cfbef7796498fcae0bdb45524ea6",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "manuscript/ieee/data_tables/TABLE_2_PRIMARY_OOF_PERFORMANCE_V1.csv",
+      "source_sha256": "d08111288535323ec8ec32d2588094a6e8ef9b4ca5c4a369a767f425cd03a3c3",
+      "release_file": "figures/inputs/editorial_historical/data_tables/TABLE_2_PRIMARY_OOF_PERFORMANCE_V1.csv",
+      "release_sha256": "d08111288535323ec8ec32d2588094a6e8ef9b4ca5c4a369a767f425cd03a3c3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "manuscript/ieee/data_tables/TABLE_3_CALIBRATION_DECISION_V1.csv",
+      "source_sha256": "4cc99effdd9635c79f9b32e1c45e8398e96983b6116e9153944a5117face710c",
+      "release_file": "figures/inputs/editorial_historical/data_tables/TABLE_3_CALIBRATION_DECISION_V1.csv",
+      "release_sha256": "4cc99effdd9635c79f9b32e1c45e8398e96983b6116e9153944a5117face710c",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "manuscript/ieee/data_tables/TABLE_5_FORWARD_TEMPORAL_GENERALIZATION_V1.csv",
+      "source_sha256": "4de4e225118c020f53b4f0d2ff422e9ac33bfa2af5f6808b305b5d6c49b6f8ff",
+      "release_file": "figures/inputs/editorial_historical/data_tables/TABLE_5_FORWARD_TEMPORAL_GENERALIZATION_V1.csv",
+      "release_sha256": "4de4e225118c020f53b4f0d2ff422e9ac33bfa2af5f6808b305b5d6c49b6f8ff",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "manuscript/ieee/data_tables/TABLE_6_PREDICTOR_SOURCE_IMPORTANCE_V1.csv",
+      "source_sha256": "ece0c1af7f0ae904a47b3c8fbabd9c057918c1b2971792c9eb5d3a48bbf6437c",
+      "release_file": "figures/inputs/editorial_historical/data_tables/TABLE_6_PREDICTOR_SOURCE_IMPORTANCE_V1.csv",
+      "release_sha256": "ece0c1af7f0ae904a47b3c8fbabd9c057918c1b2971792c9eb5d3a48bbf6437c",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "manuscript/ieee/data_tables/TABLE_8_PHYSICAL_INPUT_REGIMES_V1.csv",
+      "source_sha256": "26e0573dd48997190f7f8b18f04564a5d68bc8a0dd7d855509feac9ca0f785b7",
+      "release_file": "figures/inputs/editorial_historical/data_tables/TABLE_8_PHYSICAL_INPUT_REGIMES_V1.csv",
+      "release_sha256": "26e0573dd48997190f7f8b18f04564a5d68bc8a0dd7d855509feac9ca0f785b7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "manuscript/ieee/data_tables/TUNED_CHALLENGER_PROBABILITY_METRICS_V1.csv",
+      "source_sha256": "5ed368487775cd91258cfc0fd3e458bfb2f542790f87ecdebbd1456a7eb00b72",
+      "release_file": "figures/inputs/editorial_historical/data_tables/TUNED_CHALLENGER_PROBABILITY_METRICS_V1.csv",
+      "release_sha256": "5ed368487775cd91258cfc0fd3e458bfb2f542790f87ecdebbd1456a7eb00b72",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "scripts/build_editorial_assets.py",
+      "source_sha256": "3459824c3f776cac9f1b3ac9d487de8f5104d91356da5f7de26c0276d1bfa502",
+      "release_file": "figures/reproduce_editorial_historical.py",
+      "release_sha256": "ad55fcea9b6e723b8dff185903c11f50d2a829d45013830bf48498e46dd4eaa6",
+      "operation": "input/output roots adapted; historical plotting/table code unchanged"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/fig_study_extent.pdf",
+      "source_sha256": "2177364ba78014a19f857034ea1f60eacb54b81f5629df4569800667c9f757e8",
+      "release_file": "figures/reference_outputs/fig_study_extent.pdf",
+      "release_sha256": "2177364ba78014a19f857034ea1f60eacb54b81f5629df4569800667c9f757e8",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/study_extent/fig_study_extent.png",
+      "source_sha256": "ebd6a7fac4be64c907b9657fd50e7cea802091ad703a8e12b3d09c96ad5c6e93",
+      "release_file": "figures/reference_outputs/fig_study_extent.png",
+      "release_sha256": "ebd6a7fac4be64c907b9657fd50e7cea802091ad703a8e12b3d09c96ad5c6e93",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/nifc_nirops_example/nifc_nirops_observed_example.pdf",
+      "source_sha256": "8f1c4bd983e0771b042774d119092e4c0e934268340751b0fa5babc18f302547",
+      "release_file": "figures/reference_outputs/nifc_nirops_observed_example.pdf",
+      "release_sha256": "8f1c4bd983e0771b042774d119092e4c0e934268340751b0fa5babc18f302547",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/manuscript_maps_20261110/nifc_nirops_example/nifc_nirops_observed_example.png",
+      "source_sha256": "5cd1868cbfac18e4df33ea2cedbf88330417735707a7b4600b864d9bdd70d215",
+      "release_file": "figures/reference_outputs/nifc_nirops_observed_example.png",
+      "release_sha256": "5cd1868cbfac18e4df33ea2cedbf88330417735707a7b4600b864d9bdd70d215",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/fireline_methods_schematic/fig_fireline_units_nifc_nirops.pdf",
+      "source_sha256": "ae3878a9c07849b2de4691de7eb6455d3eabde2aba727579a6ddc526f1f0f1a1",
+      "release_file": "figures/reference_outputs/fig_fireline_units_nifc_nirops.pdf",
+      "release_sha256": "ae3878a9c07849b2de4691de7eb6455d3eabde2aba727579a6ddc526f1f0f1a1",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "outputs/fireline_methods_schematic/fig_fireline_units_nifc_nirops.png",
+      "source_sha256": "c06b788c982ea5387212f0884da915f6ba72203edb8ca7b2d6e23f2b267411e7",
+      "release_file": "figures/reference_outputs/fig_fireline_units_nifc_nirops.png",
+      "release_sha256": "c06b788c982ea5387212f0884da915f6ba72203edb8ca7b2d6e23f2b267411e7",
+      "operation": "byte-identical copy"
+    }
+  ]
+}
