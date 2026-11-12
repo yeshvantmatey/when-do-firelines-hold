@@ -48,7 +48,7 @@ TIGER/Line is a registered trademark of the U.S. Census Bureau. Its use here ide
 
 ## AMS LaTeX support files
 
-The American Meteorological Society's `ametsocV6.2.cls` carries copyright 2021 American Meteorological Society and is distributed under LPPL 1.3 or later. Its notice defines the work as `ametsocV6.2.cls`, `ametsocV6.bst`, `amsdocsV6.2.pdf`, and `AMS_RefsV6.pdf`. The complete four-file work is included unchanged in `analysis_archive/` of the related shared Zenodo package (`[ZENODO-DOI]`). The AMS support work is not distributed in this GitHub repository.
+The American Meteorological Society's `ametsocV6.2.cls` carries copyright 2021 American Meteorological Society and is distributed under LPPL 1.3 or later. Its notice defines the work as `ametsocV6.2.cls`, `ametsocV6.bst`, `amsdocsV6.2.pdf`, and `AMS_RefsV6.pdf`. The complete four-file work is included unchanged in `analysis_archive/` of the related shared Zenodo package (https://doi.org/10.5281/zenodo.24148495). The AMS support work is not distributed in this GitHub repository.
 
 The bibliography style `ametsocV6.bst` retains its copyright notice for Patrick W. Daly (1994–2005), its 2021 update attribution, and its stated LPPL version 1 or later terms. The notices are preserved in all included copies, including historical snapshots. The supplied LPPL 1.3c text is at `LICENSES/LPPL-1.3c.txt`; the upstream license page is <https://www.latex-project.org/lppl/>.
 

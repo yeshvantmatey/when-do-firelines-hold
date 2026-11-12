@@ -14,6 +14,6 @@ The same scope applies to the GitHub repository and its exact code snapshot with
 
 The MIT license at the code repository root applies to the original software covered above. The CC BY 4.0 license applies to the original scientific content covered above. File-specific upstream notices take precedence for third-party components. Dependencies installed separately retain their own licenses.
 
-For CC BY 4.0 material, give appropriate credit, link the license, and indicate changes. Cite the shared Zenodo release using `[ZENODO-DOI]` once assigned, and preserve the upstream credits. For code, retain the MIT copyright and permission notice; the repository citation identifies the project contributors and the version supporting the paper.
+For CC BY 4.0 material, give appropriate credit, link the license, and indicate changes. Cite the shared Zenodo record using https://doi.org/10.5281/zenodo.24148495 once published, and preserve the upstream credits. For code, retain the MIT copyright and permission notice; the repository citation identifies the project contributors and the version supporting the paper.
 
-The code repository is https://github.com/yeshvantmatey/when-do-firelines-hold. The versioned code release and Zenodo links remain placeholders: `[GITHUB-RELEASE-URL]` and `[ZENODO-DOI]`. The placeholders do not identify published releases.
+The code repository is https://github.com/yeshvantmatey/when-do-firelines-hold. Version 1.0.0 uses tag `v1.0.0` and release URL https://github.com/yeshvantmatey/when-do-firelines-hold/releases/tag/v1.0.0. The reserved shared Zenodo DOI is https://doi.org/10.5281/zenodo.24148495. The DOI and release links become available when the corresponding records are published.

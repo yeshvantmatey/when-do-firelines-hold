@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite the paper's named code release and the shared Zenodo record. Link placeholders are comments until finalized."
+message: "Cite the shared Zenodo record and identify the code as version 1.0.0 (tag v1.0.0). The DOI covers the combined data, analysis archive, and code snapshot."
 type: software
 title: "When Do Firelines Hold? Predicting Recorded Outcomes from Weather and Landscape Conditions — Analysis Code"
 authors:
@@ -12,7 +12,7 @@ authors:
   - family-names: Altintas
     given-names: Ilkay
     affiliation: San Diego Supercomputer Center, University of California San Diego
-version: 1.0.0-draft
+version: 1.0.0
 license:
   - MIT
   - CC-BY-4.0
@@ -22,8 +22,9 @@ keywords:
   - fireline outcomes
   - probabilistic prediction
   - model evaluation
-# Shared record DOI: [ZENODO-DOI]
+# DOI reserved for the combined data, code snapshot, and analysis archive.
+# DOI and tag links resolve after the corresponding records are published.
+doi: "10.5281/zenodo.24148495"
 repository-code: "https://github.com/yeshvantmatey/when-do-firelines-hold"
-# url: [GITHUB-RELEASE-URL]
-# Exact code commit: [GITHUB-COMMIT-SHA]
-# Replace comments with real DOI/URL fields after the identifiers exist.
+url: "https://github.com/yeshvantmatey/when-do-firelines-hold/releases/tag/v1.0.0"
+# The exact final Git commit is recorded in the external Zenodo snapshot manifest.

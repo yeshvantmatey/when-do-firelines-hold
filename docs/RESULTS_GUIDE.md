@@ -1,6 +1,6 @@
 # Locate the results supporting the manuscript
 
-Evidence paths below are relative to the `dataset/` folder in the shared Zenodo package [ZENODO-DOI], not the software directory. Files under `evidence` retain their original project-relative locations. Historical identifiers such as `incident_macro`, `mixed_incident_macro`, `pr_auc`, and `row` are preserved in saved files; in the manuscript these correspond to fire-average, within-fire, average precision (AP), and equal fireline-unit weighting as applicable. Do not rename stored fields silently.
+Evidence paths below are relative to the `dataset/` folder in the shared Zenodo package https://doi.org/10.5281/zenodo.24148495, not the software directory. Files under `evidence` retain their original project-relative locations. Historical identifiers such as `incident_macro`, `mixed_incident_macro`, `pr_auc`, and `row` are preserved in saved files; in the manuscript these correspond to fire-average, within-fire, average precision (AP), and equal fireline-unit weighting as applicable. Do not rename stored fields silently.
 
 | Manuscript result | Authoritative saved material |
 |---|---|

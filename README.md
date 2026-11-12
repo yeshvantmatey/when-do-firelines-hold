@@ -2,14 +2,13 @@
 
 Code supporting *When Do Firelines Hold? Predicting Recorded Outcomes from Weather and Landscape Conditions*.
 
-**Development version, 1.0.0-draft.** The versioned code release and shared Zenodo record are being prepared. Their links remain placeholders.
+**Version 1.0.0.** Prepared for the paper's code release. The Zenodo DOI is reserved; the DOI and release links below become available when the corresponding records are published.
 
 | Resource | Identifier |
 |---|---|
 | Public code repository | https://github.com/yeshvantmatey/when-do-firelines-hold |
-| Paper code release | [GITHUB-RELEASE-URL] |
-| Exact code commit | [GITHUB-COMMIT-SHA] |
-| Shared dataset, saved results, complete analysis archive and code snapshot | [ZENODO-DOI] |
+| Paper code release (tag `v1.0.0`) | https://github.com/yeshvantmatey/when-do-firelines-hold/releases/tag/v1.0.0 |
+| Shared dataset, saved results, complete analysis archive and code snapshot | https://doi.org/10.5281/zenodo.24148495 |
 
 ## What is included
 
@@ -24,7 +23,7 @@ The full retained dataset, selection audit, saved predictions and complete analy
 
 ## Download and arrange the data
 
-Download and extract the package from [ZENODO-DOI]. An example layout is:
+Once the Zenodo record is published, download and extract the package from https://doi.org/10.5281/zenodo.24148495. An example layout is:
 
 ```text
 work/
@@ -74,7 +73,7 @@ No operational reliability or causal fireline effect is established by the retro
 
 Original software is licensed under MIT. Original scientific data, figures and documentation are licensed under CC BY 4.0 to the extent the contributors hold the relevant rights. Upstream data and third-party files retain their own terms. Read `LICENSE`, `LICENSE_SCOPE.md` and `THIRD_PARTY_NOTICES.md`; the software license does not relabel the bundled scientific data or public-domain boundaries.
 
-`CITATION.cff` records the authors and local candidate version. Cite the named code release and the shared Zenodo record once their real links are available. The Zenodo snapshot should match the exact paper code version. Unassigned DOI and release links remain comments in citation metadata.
+`CITATION.cff` records the authors, version 1.0.0, and the shared Zenodo DOI. The DOI identifies the combined dataset, analysis archive, and code snapshot. Cite the shared record and identify the code version with tag `v1.0.0`. The final Git commit is recorded in the external Zenodo code-snapshot manifest after the tag is created. In a Git checkout containing the release tag, `git rev-parse "v1.0.0^{commit}"` reports the exact commit. A commit cannot contain its own final hash.
 
 Authors: Yeshvant Matey, Raymond de Callafon and Ilkay Altintas. Research support: Google.org, for work at the Societal Computing and Innovation Lab at the San Diego Supercomputer Center. Generative AI tools assisted code development and documentation; the authors are responsible for the analysis and interpretation.
 
